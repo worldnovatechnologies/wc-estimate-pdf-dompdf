@@ -29,10 +29,9 @@ require_once WC_ESTIMATE_PDF_DIR . 'includes/plugin-update-checker/plugin-update
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
 $wcEstimatePdfUpdateChecker = PucFactory::buildUpdateChecker(
-	// TODO: replace with the real URL of your GitHub repository.
-	'https://github.com/your-username/your-repo-name/',
-	__FILE__,
-	'order-estimate-pdf'
+    'https://github.com/worldnovatechnologies/wc-estimate-pdf-dompdf/',
+    __FILE__,
+    'wc-estimate-pdf-dompdf'
 );
 
 // Read version info from GitHub "Releases" rather than tags/branches.
