@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Order Estimate PDF
  * Description: Generates a branded Estimate Report PDF for WooCommerce orders using Dompdf, hardened for Hostinger shared hosting (see README.txt). Attaches the PDF to WooCommerce's own order emails, offers an auto-download on the Thank You page, and a Download/Print column in wp-admin.
- * Version: 1.0.1
+ * Version: 2.0
  * Author: World Nova Technologies
  * Text Domain: order-estimate-pdf
  * Requires Plugins: woocommerce
